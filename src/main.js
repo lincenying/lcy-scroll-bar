@@ -39,7 +39,7 @@ export default {
     },
 
     render(h) {
-        let gutter = scrollbarWidth()
+        let gutter = scrollBarWidth()
         let style = this.wrapStyle
 
         if (gutter) {
