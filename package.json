@@ -1,22 +1,21 @@
 {
-  "name": "lcy-image-viewer",
-  "version": "1.0.4",
-  "description": "image viewer",
+  "name": "lcy-scroll-bar",
+  "version": "1.0.0",
+  "description": "scrollbar",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lincenying/image-viewer.git"
+    "url": "git+https://github.com/lincenying/lcy-scroll-bar.git"
   },
   "keywords": [
-    "image",
-    "viewer"
+    "scrollbar"
   ],
   "author": "LinCenYing",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lincenying/image-viewer/issues"
+    "url": "https://github.com/lincenying/lcy-scroll-bar/issues"
   },
-  "homepage": "https://github.com/lincenying/image-viewer#readme",
+  "homepage": "https://github.com/lincenying/lcy-scroll-bar#readme",
   "dependencies": {
     "resize-observer-polyfill": "^1.5.1",
     "vue": "^2.6.12"
