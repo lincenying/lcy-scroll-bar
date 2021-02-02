@@ -1,5 +1,3 @@
-let scrollBarWidth
-
 const isServer = typeof window === 'undefined'
 
 export const BAR_MAP = {
@@ -37,9 +35,8 @@ export function rafThrottle(fn) {
     }
 }
 
-export default function() {
+export const scrollBarWidth = function() {
     if (isServer) return 0
-    if (scrollBarWidth !== undefined) return scrollBarWidth
 
     const outer = document.createElement('div')
     outer.className = 'el-scrollbar__wrap'
@@ -58,9 +55,8 @@ export default function() {
 
     const widthWithScroll = inner.offsetWidth
     outer.parentNode.removeChild(outer)
-    scrollBarWidth = widthNoScroll - widthWithScroll
 
-    return scrollBarWidth
+    return widthNoScroll - widthWithScroll
 }
 
 /* istanbul ignore next */
