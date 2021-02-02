@@ -2,6 +2,8 @@ import Vue from 'vue'
 
 let scrollBarWidth
 
+const isServer = typeof window === 'undefined'
+
 export const BAR_MAP = {
     vertical: {
         offset: 'offsetHeight',
