@@ -2,7 +2,7 @@
   "name": "lcy-scroll-bar",
   "version": "1.0.5",
   "description": "scrollbar",
-  "main": "index.js",
+  "main": "dist/scroll-bar.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lincenying/lcy-scroll-bar.git"
