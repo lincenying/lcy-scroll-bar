@@ -28,6 +28,7 @@ event:
 
 ```javascript
 import scrollBar from 'lcy-scroll-bar'
+import 'lcy-scroll-bar/src/style.css'
 Vue.use(scrollBar)
 ```
 
