@@ -5,9 +5,9 @@
 ##### install
 
 ```bash
-yarn add scroll-bar
+yarn add lcy-scroll-bar
 # or
-npm install scroll-bar --save
+npm install lcy-scroll-bar --save
 ```
 
 ```
@@ -27,7 +27,7 @@ event:
 ```
 
 ```javascript
-import scrollBar from 'scroll-bar'
+import scrollBar from 'lcy-scroll-bar'
 Vue.use(scrollBar)
 ```
 
