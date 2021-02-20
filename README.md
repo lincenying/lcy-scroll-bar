@@ -23,7 +23,7 @@ prop:
 event:
     @scroll="onScroll"
 
-需要给 :class 和 :wrap-class 定义的样式 设置高度
+需要给 :class 或者 :wrap-class 定义的样式 设置高度
 ```
 
 ```javascript
@@ -33,7 +33,11 @@ Vue.use(scrollBar)
 
 ```html
 <scroll-bar
-    tag="div" wrap-class="scrollbar__wrap" view-class="scrollbar__list" ref="scrollbar"
+    ref="scrollbar"
+    tag="div"
+    wrap-class="scrollbar__wrap"
+    view-class="scrollbar__list"
+    ref="scrollbar"
     :class="`scrollbar__demo`"
     @scroll="onScroll"
 >

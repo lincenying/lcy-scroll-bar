@@ -10,7 +10,7 @@ process.env.NODE_ENV = 'production';
 module.exports = merge(webpackBaseConfig, {
     devtool: 'source-map',
     entry: {
-        'scroll-bar': './index.js'
+        'scroll-bar': './main.js'
     },
     output: {
         path: path.resolve(__dirname, './dist'),

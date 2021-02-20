@@ -39,7 +39,7 @@ export const scrollBarWidth = function() {
     if (isServer) return 0
 
     const outer = document.createElement('div')
-    outer.className = 'el-scrollbar__wrap'
+    outer.className = 'lcy-scrollbar__wrap'
     outer.style.visibility = 'hidden'
     outer.style.width = '100px'
     outer.style.position = 'absolute'

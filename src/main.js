@@ -58,7 +58,7 @@ export default {
         const view = h(
             this.tag,
             {
-                class: ['el-scrollbar__view', this.viewClass],
+                class: ['lcy-scrollbar__view', this.viewClass],
                 style: this.viewStyle,
                 ref: 'resize'
             },
@@ -69,7 +69,7 @@ export default {
                 ref="wrap"
                 style={style}
                 onScroll={this.handleScroll}
-                class={[this.wrapClass, 'el-scrollbar__wrap', gutter ? '' : 'el-scrollbar__wrap--hidden-default']}
+                class={[this.wrapClass, 'lcy-scrollbar__wrap', gutter ? '' : 'lcy-scrollbar__wrap--hidden-default']}
             >
                 {[view]}
             </div>
@@ -80,12 +80,12 @@ export default {
             nodes = [wrap, <Bar move={this.moveX} size={this.sizeWidth}></Bar>, <Bar vertical move={this.moveY} size={this.sizeHeight}></Bar>]
         } else {
             nodes = [
-                <div ref="wrap" class={[this.wrapClass, 'el-scrollbar__wrap']} style={style}>
+                <div ref="wrap" class={[this.wrapClass, 'lcy-scrollbar__wrap']} style={style}>
                     {[view]}
                 </div>
             ]
         }
-        return h('div', { class: 'el-scrollbar' }, nodes)
+        return h('div', { class: 'lcy-scrollbar' }, nodes)
     },
 
     methods: {
