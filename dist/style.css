@@ -10,6 +10,7 @@
 }
 .lcy-scrollbar__wrap {
     overflow: scroll;
+    overflow-x: hidden;
     height: 100%;
 }
 .lcy-scrollbar__wrap--hidden-default {
