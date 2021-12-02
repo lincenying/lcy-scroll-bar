@@ -108,6 +108,9 @@ export default {
 
             this.sizeHeight = heightPercentage < 100 ? heightPercentage + '%' : ''
             this.sizeWidth = widthPercentage < 100 ? widthPercentage + '%' : ''
+        },
+        scrollTo(x = 0, y = 0) {
+            this.$refs.wrap.scrollTo(x, y)
         }
     },
 
